@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Save Our Planet | Rishabh</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0fff4;
+    color: #174d32;
+}
+
+header {
+    background: linear-gradient(135deg, #064e3b, #16a34a, #65a30d);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+.creator {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #fff7a8;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 10px;
+}
+
+header p {
+    font-size: 19px;
+}
+
+nav {
+    background: #064e3b;
+    padding: 17px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #bef264;
+}
+
+section {
+    padding: 45px 8%;
+    text-align: center;
+}
+
+h2 {
+    color: #15803d;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 25px;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 5px 18px #00000015;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+}
+
+.card .emoji {
+    font-size: 48px;
+}
+
+.tips {
+    background: #dcfce7;
+}
+
+.tip {
+    background: white;
+    margin: 12px auto;
+    padding: 17px;
+    max-width: 650px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.fact {
+    background: #14532d;
+    color: white;
+    padding: 40px 20px;
+}
+
+.fact h2 {
+    color: #bef264;
+}
+
+footer {
+    background: #052e16;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer strong {
+    color: #bef264;
+}
+
+button {
+    background: #facc15;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fde047;
+}
+
+@media(max-width:600px) {
+    header h1 { font-size: 30px; }
+    nav a { display: inline-block; margin: 7px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="creator">✨ CREATOR: RISHABH ✨</div>
+    <h1>🌍 SAVE OUR PLANET</h1>
+    <p>Reduce • Reuse • Recycle</p>
+    <p>Small Steps Today, A Greener Tomorrow!</p>
+    <br>
+    <a href="#about"><button>EXPLORE NOW 🌱</button></a>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#three">The 3 Rs</a>
+    <a href="#tips">Green Tips</a>
+    <a href="#facts">Facts</a>
+</nav>
+
+<section id="about">
+    <h2>🌱 Let's Protect Our Earth!</h2>
+    <p>
+        Earth is our only home. It gives us air, water,
+        food and shelter. We must protect nature and
+        keep our environment clean and healthy.
+    </p>
+</section>
+
+<section id="three">
+    <h2>♻️ Discover the 3 Rs</h2>
+    <div class="cards">
+
+        <div class="card">
+            <div class="emoji">🌱</div>
+            <h3>1. REDUCE</h3>
+            <p>Use fewer resources and create less waste.</p>
+            <p>Example: Save water and avoid unnecessary plastic.</p>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🔄</div>
+            <h3>2. REUSE</h3>
+            <p>Use things again instead of throwing them away.</p>
+            <p>Example: Turn old jars into pencil holders.</p>
+        </div>
+
+        <div class="card">
+            <div class="emoji">♻️</div>
+            <h3>3. RECYCLE</h3>
+            <p>Turn used materials into new useful products.</p>
+            <p>Example: Recycle paper, glass and metal.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="tips" class="tips">
+    <h2>💚 10 Ways to Save Our Planet</h2>
+
+    <div class="tip">🌳 1. Plant more trees.</div>
+    <div class="tip">💧 2. Turn off taps when not needed.</div>
+    <div class="tip">💡 3. Switch off unused lights.</div>
+    <div class="tip">🛍️ 4. Carry reusable shopping bags.</div>
+    <div class="tip">🚲 5. Walk or cycle for short journeys.</div>
+    <div class="tip">🗑️ 6. Put waste in the correct bins.</div>
+    <div class="tip">🍃 7. Avoid single-use plastic.</div>
+    <div class="tip">📄 8. Use both sides of paper.</div>
+    <div class="tip">🐦 9. Protect animals and their habitats.</div>
+    <div class="tip">🌎 10. Keep your surroundings clean.</div>
+</section>
+
+<section>
+    <h2>🌈 A Better Future Starts With Us</h2>
+    <div class="cards">
+        <div class="card">
+            <div class="emoji">🌊</div>
+            <h3>Clean Water</h3>
+            <p>Protect rivers, lakes and oceans from pollution.</p>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🌲</div>
+            <h3>Green Forests</h3>
+            <p>Protect forests and plant more trees.</p>
+        </div>
+
+        <div class="card">
+            <div class="emoji">☀️</div>
+            <h3>Clean Energy</h3>
+            <p>Support renewable energy like solar and wind power.</p>
+        </div>
+    </div>
+</section>
+
+<section id="facts" class="fact">
+    <h2>🌍 Remember These Facts!</h2>
+    <p>🌳 Trees provide habitats for many living things.</p>
+    <p>💧 Fresh water is essential for life.</p>
+    <p>♻️ Recycling helps reduce waste.</p>
+    <p>🐼 Every animal plays an important role in nature.</p>
+    <h2>THERE IS NO PLANET B!</h2>
+    <p>Let's make our Earth cleaner, greener and healthier!</p>
+</section>
+
+<section>
+    <h2>💚 Join the Green Movement!</h2>
+    <p>Promise to do your part to protect our beautiful planet.</p>
+    <button onclick="alert('🌍 Thank you for helping save our planet!')">
+        I'M READY TO HELP! 🌱
+    </button>
+</section>
+
+<footer>
+    <h2>🌎 SAVE OUR PLANET</h2>
+    <p>Small Actions. Big Changes.</p>
+    <p>Website created by <strong>RISHABH</strong> ✨</p>
+    <p>© 2026 | Keep Earth Clean and Green!</p>
+</footer>
+
+</body>
+</html>
